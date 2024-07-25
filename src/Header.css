@@ -28,6 +28,10 @@
     
 }
 
+.login1{
+    background-image:  linear-gradient(to right,#FFB6C1,#9b2dca) ;
+}
+
 .box{
     display: flex;
     flex-direction: column;

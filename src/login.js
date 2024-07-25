@@ -67,7 +67,7 @@ export default function Login() {
             <h1 className='m-4 font-bold text-3xl'>LOGIN</h1>
             <h1 className='m-4'>Please Enter your Email and Password</h1>
 
-            <div className='w-[90%] h-[90%] border-[1.5px] border-black shadow-2xl box'>
+            <div className='w-[90%] h-[90%] border-[1.5px] login1 border-black shadow-2xl box'>
               <input type="text" placeholder='Email' onChange={getvalue} className='inputbox' value={adduserData.uemail} name='uemail' required></input>
               <input type={pdisplay? 'text':'password'} onChange={getvalue} value={adduserData.upassword} name='upassword' placeholder='Password' className='inputbox' required></input>
               <span className='passworddisplay' onClick={()=>setpdisplay(!pdisplay)}><FontAwesomeIcon  icon={pdisplay? faEye:faEyeSlash}></FontAwesomeIcon></span>
